@@ -13,14 +13,24 @@
   
 
 ###   #2 Line Following BB Car
-  1. (RPC command to Line Following mode)
-  2.  OpenMV would detected the first line that y2 is 0 as the picture below.
+  1. Copy the following code into IDE
+  
+    ```sdfsdfgdf ```
+  
+  2. (RPC command to Line Following mode)
+  3.  OpenMV would detected the first line that y2 is 0 as the picture below.
   ![]()
-  3.  If the diiference between x1 and x2 is < 2 the bb car will go straight.
-  4.  If x1 > x2 the car will turn left. If x1 < x2 the car will turn  right.
-  5.  The bb car will stop when it had went for a fixed steps.
+  4.  If the diiference between x1 and x2 is < 2 the bb car will go straight.
+  5.  If x1 > x2 the car will turn left. If x1 < x2 the car will turn  right.
+  6.  The bb car will stop when it had went for a fixed steps.
 
 ###   #3 BBCar Position Calibration
+  1. Copy the following code into IDE  
+    
+    ```sdfsdfgdf ```
+  
+  2. (RPC command to Position Calibration mode)
+  
 
 ## Execution Results
 
@@ -41,8 +51,8 @@
 ###   #2 Line Following BB Car
 1. (RPC command to Line Following mode)
   
-  demo video:
-  https://drive.google.com/file/d/1xM13LB_xwKywBdLqyiOhrAfjdqj0qEyG/view?usp=sharing
+    demo video:
+    https://drive.google.com/file/d/1xM13LB_xwKywBdLqyiOhrAfjdqj0qEyG/view?usp=sharing
 
 
 ###   #3 BBCar Position Calibration
