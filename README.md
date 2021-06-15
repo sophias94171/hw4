@@ -20,7 +20,7 @@
 
 ###   #1 XBee Controlled BB Car
 1. enter 0(east), the value of d1 d2 as picture below and press F2 to start
-    ![]()
+    
   
     demo video:
     https://drive.google.com/file/d/1_hgHBdXZDotuFUCkD5_Mi8R7mMB9JTYX/view?usp=sharing
@@ -37,4 +37,5 @@
 ###   #2 Line Following BB Car
 
 ###   #3 BBCar Position Calibration
-![]()
+![](tag_36h11.png)
+
