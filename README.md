@@ -38,6 +38,7 @@
    
   1. Press F3 in python as RPC command to Position Calibration mode
   2. The car would go Straight/turn right/ture left according to the value of degree detected by openMV
+  3. The car will stop when the distance detected by ping < 25
   
 
 ## Execution Results
