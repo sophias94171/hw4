@@ -13,8 +13,8 @@ w = 11.5
 # d2 = float(input('Enter d2 : '))
 west = 0
 d1 = 7.6 #7.6 #13
-d2 = 5.6 # 5.6 #9 
-print(f"Setup: (d1, d2) ={d1, d2}")
+#d2 = 5.6 # 5.6 #9 
+#print(f"Setup: (d1, d2) ={d1, d2}")
 
 depth = 18+d1-w
 rv = 4
@@ -93,6 +93,10 @@ def get():
 
         if k3=='Q': # press f2
             # 
+            west = float(input('Enter West(0/1) : '))
+            d1 = float(input('Enter d1 : '))
+            d2 = float(input('Enter d2 : '))
+
             back_time1 = (d2-1)/rv
             cir_time = 10/rv
             back_time2 = (depth-5)/rv # speed = 80
