@@ -2,13 +2,19 @@
 
 ## Setup and run the Program 
 
-   1. Copy the following code into IDE
-     
-    ```sdfsdfgdf ```
+   1. Copy the code in hw4/openMV code_hw4.txt into IDE
     
-   2.  `$ sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01A -t GCC_ARM -f
-   3.  `$ cd hw4/`
-   4.  `$ sudo python3 car_control.py /dev/ttyACM0`
+   2.  Compile the program
+   
+   `$ cd hw4/13_7_Control_BBCar_by_Xbee/`
+   
+   `$ sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01A -t GCC_ARM -f`
+   
+   3.  Execute the python code to control BBCar
+   
+   `$ cd hw4/13_6_Python_PRC`
+   
+   `$ sudo python3 car_control.py /dev/ttyACM0`
 
 ###   #1 XBee Controlled BB Car
   
@@ -22,7 +28,9 @@
 
   1. Press F1 in python as RPC command to Line Following mode 
   2. OpenMV would detected the first line that y2 is 0 as the picture below.
-  ![]()
+  
+  ![](openMV.png)
+  
   3.  If the diiference between x1 and x2 is < 2,the car will go straight.
   4.  If x1 > x2 the car will turn left. If x1 < x2 the car will turn  right.
   5.  The bb car will stop when it had went for a fixed steps.(20 steps in demo)
